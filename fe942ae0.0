@@ -1,0 +1,142 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1048580 (0x100004)
+    Signature Algorithm: sha384WithRSAEncryption
+        Issuer: C=US, O=Mozilla Corporation, OU=Mozilla AMO Production Signing Service, CN=root-ca-production-amo
+        Validity
+            Not Before: May  4 00:09:46 2017 GMT
+            Not After : May  4 00:09:46 2019 GMT
+        Subject: C=US, O=Mozilla Corporation, OU=Mozilla AMO Production Signing Service, CN=signingca1.addons.mozilla.org/emailAddress=foxsec@mozilla.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:bf:aa:5b:a2:88:8f:b0:3b:aa:86:03:8b:c7:ed:
+                    c1:ef:5a:f5:e9:76:3b:bd:26:7b:db:c2:7a:db:62:
+                    6c:61:b5:4a:5f:4b:af:0b:6d:d8:c6:1a:db:fb:44:
+                    fe:85:d5:78:47:4f:83:14:de:fe:06:b8:cb:a5:1f:
+                    41:38:59:f6:a5:9b:c7:af:b1:bd:ed:04:94:4c:24:
+                    f2:02:25:7e:54:08:b8:ba:54:9e:89:da:f8:a9:5d:
+                    25:81:7f:cc:5b:70:e0:7e:3d:8e:4a:93:a2:fe:11:
+                    98:96:69:ea:62:33:6d:c2:75:a6:63:34:e2:42:00:
+                    1e:b0:14:79:46:7b:ec:d4:93:ce:f0:86:92:da:ec:
+                    6a:ed:ac:78:d3:6f:cb:bd:4d:24:be:9b:08:e1:be:
+                    07:cf:f0:82:d9:ad:68:73:6f:91:ff:c9:b8:26:0f:
+                    b8:d8:68:91:88:0d:8f:d6:0e:6a:b5:81:57:b4:dd:
+                    f4:a1:c4:3d:3d:32:5d:4f:ec:7d:fc:a3:99:1b:14:
+                    b9:db:6e:aa:6a:0b:a9:fc:49:f5:08:df:53:22:24:
+                    05:c0:37:67:ba:ac:03:8c:f0:49:a8:70:06:34:10:
+                    2e:4a:52:8a:17:29:1b:18:bc:7c:e1:c3:01:e4:c0:
+                    86:db:7b:a4:29:4d:49:48:aa:fc:35:30:f9:50:3e:
+                    ce:d9:bb:f3:01:9d:59:b2:19:34:aa:27:1b:58:a2:
+                    49:6b:d0:c6:84:5e:72:4d:63:78:37:14:37:f5:47:
+                    43:a9:a7:6f:c1:11:8f:55:87:71:5c:f4:fa:ba:a9:
+                    62:21:1a:83:32:59:db:9e:a1:26:1a:f8:65:11:a8:
+                    36:ec:b9:89:e4:ed:99:32:b3:12:be:c9:1a:05:26:
+                    ee:31:dd:35:01:98:c2:8c:d7:88:d0:28:b8:31:be:
+                    e2:33:59:59:fa:aa:0e:9c:c3:bc:9e:fc:36:0d:b9:
+                    f7:3e:0d:23:d2:4d:26:a4:4a:c5:89:f4:83:f1:88:
+                    05:3b:c4:9f:86:08:cc:da:67:5d:18:dd:51:8e:c9:
+                    b1:8b:b8:fc:43:95:27:7a:28:02:c0:a0:c7:25:f6:
+                    08:41:da:6b:df:07:43:77:c2:fe:ae:5a:76:ca:bb:
+                    18:a1:ab:fa:83:a6:cf:85:8e:58:8d:be:be:c2:eb:
+                    a9:88:54:7f:bd:ae:4c:87:23:2e:86:80:85:25:c2:
+                    be:c4:f3:c4:2a:c3:e4:90:78:d7:a9:87:a3:48:63:
+                    ce:4f:2f:8a:74:63:c2:a2:bc:a3:f8:27:dd:bc:b6:
+                    9a:75:f3:02:ee:1c:d6:c8:1b:e6:1a:52:4e:56:50:
+                    36:7a:ff:6e:b6:d6:98:b5:f5:46:50:f2:28:87:c4:
+                    df:d7:29
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Extended Key Usage: critical
+                Code Signing
+            X509v3 Subject Key Identifier: 
+                16:3E:FB:1C:FF:0C:2B:93:F8:9B:15:D7:2D:A3:C2:E6:78:61:DC:ED
+            X509v3 Authority Key Identifier: 
+                keyid:B3:BC:EA:58:74:AB:E1:6E:78:2A:B2:AB:9C:23:1E:A8:63:2C:97:B7
+                DirName:/C=US/O=Mozilla Corporation/OU=Mozilla AMO Production Signing Service/CN=root-ca-production-amo
+                serial:01
+
+            Netscape CA Revocation Url: 
+                http://addons.mozilla.org/ca/crl.pem
+            X509v3 Name Constraints: 
+                Excluded:
+                  DNS:.content-signature.mozilla.org
+                  DNS:content-signature.mozilla.org
+
+    Signature Algorithm: sha384WithRSAEncryption
+         3d:ec:c7:4e:c9:65:39:8c:12:7f:9a:1e:94:ff:01:94:29:5a:
+         a1:ab:b0:2c:0f:41:7a:72:de:96:01:0d:1b:e1:b5:b8:38:cf:
+         3d:cf:cc:3d:a5:8b:2d:c9:03:cb:06:34:e5:f0:b9:9e:cf:4b:
+         2d:16:ae:4f:e3:6f:58:b8:a7:07:28:63:ad:88:24:87:5f:88:
+         8c:08:ca:dd:42:c4:67:67:ec:e6:2f:d1:a7:7f:75:87:68:71:
+         7d:bc:88:1f:0a:d6:a2:35:ea:b8:ad:1f:89:cb:84:7e:c8:a6:
+         4e:39:34:14:67:35:3a:65:16:51:eb:62:15:ca:a0:b4:53:f3:
+         e9:71:0f:0a:23:da:f7:bc:82:9d:46:35:e1:89:f3:cc:3e:2e:
+         a8:b1:9c:b6:2c:a0:cd:00:07:16:da:18:29:14:68:ad:d1:13:
+         2c:bc:16:4e:58:5c:ae:7c:47:18:8f:8a:c1:56:37:f8:8c:2d:
+         63:be:22:f1:6f:33:ba:1b:23:9b:09:b5:d8:81:20:17:94:1c:
+         da:38:d9:5a:1a:6a:ed:6a:a3:19:b7:8c:62:20:e0:ad:30:9c:
+         ff:99:51:de:77:a8:c4:3f:45:1f:67:2d:c8:2d:dc:66:43:d7:
+         6b:c2:bd:21:d5:6f:53:31:f2:3f:b9:f4:e3:22:f9:bd:55:9d:
+         aa:77:15:0a:c1:4a:87:78:cf:ba:37:0b:b1:ab:1e:b5:b7:c9:
+         f8:9d:24:95:25:64:1d:cf:2b:9a:2b:0d:90:6e:01:70:3f:b7:
+         ae:e6:13:f7:e3:ea:fc:01:75:31:c7:c0:6e:8d:11:ae:c8:95:
+         17:f1:38:8b:c7:c7:30:00:cd:4f:a5:08:36:0b:6b:b0:7a:9c:
+         c6:d0:a1:95:c6:ee:c9:82:7a:7f:33:88:ef:fb:09:24:0d:36:
+         be:8d:9d:3d:94:f1:0f:b2:96:11:2a:a4:21:73:a1:96:14:d4:
+         83:f0:52:63:98:55:0f:4c:c7:06:53:f2:af:03:1c:a6:2f:ac:
+         ca:29:d4:34:1e:7b:c8:c3:e9:c2:79:aa:32:c7:ce:98:b6:6d:
+         b3:b3:38:48:06:ad:b5:38:51:ca:a1:fe:11:a7:20:6d:3c:b2:
+         c1:c2:9c:02:4c:2d:9a:c0:a4:fe:ff:ff:f3:1b:34:1f:e4:5c:
+         dc:ac:b2:38:dc:06:29:2b:32:67:7f:18:7a:17:81:97:22:c1:
+         7b:44:b9:d4:b7:89:e4:45:46:56:31:7a:b5:e5:27:e3:46:fe:
+         dc:04:48:bd:19:be:83:67:41:e1:f0:3c:a5:51:8d:ac:6d:b2:
+         4d:83:81:a4:6e:6f:24:4c:76:81:5a:0e:5c:b2:a4:c9:d2:0a:
+         e2:bb:d8:26:2d:d4:de:e0
+-----BEGIN CERTIFICATE-----
+MIIHLTCCBRWgAwIBAgIDEAAEMA0GCSqGSIb3DQEBDAUAMH0xCzAJBgNVBAYTAlVT
+MRwwGgYDVQQKExNNb3ppbGxhIENvcnBvcmF0aW9uMS8wLQYDVQQLEyZNb3ppbGxh
+IEFNTyBQcm9kdWN0aW9uIFNpZ25pbmcgU2VydmljZTEfMB0GA1UEAxMWcm9vdC1j
+YS1wcm9kdWN0aW9uLWFtbzAeFw0xNzA1MDQwMDA5NDZaFw0xOTA1MDQwMDA5NDZa
+MIGnMQswCQYDVQQGEwJVUzEcMBoGA1UEChMTTW96aWxsYSBDb3Jwb3JhdGlvbjEv
+MC0GA1UECxMmTW96aWxsYSBBTU8gUHJvZHVjdGlvbiBTaWduaW5nIFNlcnZpY2Ux
+JjAkBgNVBAMTHXNpZ25pbmdjYTEuYWRkb25zLm1vemlsbGEub3JnMSEwHwYJKoZI
+hvcNAQkBFhJmb3hzZWNAbW96aWxsYS5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4IC
+DwAwggIKAoICAQC/qluiiI+wO6qGA4vH7cHvWvXpdju9JnvbwnrbYmxhtUpfS68L
+bdjGGtv7RP6F1XhHT4MU3v4GuMulH0E4Wfalm8evsb3tBJRMJPICJX5UCLi6VJ6J
+2vipXSWBf8xbcOB+PY5Kk6L+EZiWaepiM23CdaZjNOJCAB6wFHlGe+zUk87whpLa
+7GrtrHjTb8u9TSS+mwjhvgfP8ILZrWhzb5H/ybgmD7jYaJGIDY/WDmq1gVe03fSh
+xD09Ml1P7H38o5kbFLnbbqpqC6n8SfUI31MiJAXAN2e6rAOM8EmocAY0EC5KUooX
+KRsYvHzhwwHkwIbbe6QpTUlIqvw1MPlQPs7Zu/MBnVmyGTSqJxtYoklr0MaEXnJN
+Y3g3FDf1R0Opp2/BEY9Vh3Fc9Pq6qWIhGoMyWdueoSYa+GURqDbsuYnk7ZkysxK+
+yRoFJu4x3TUBmMKM14jQKLgxvuIzWVn6qg6cw7ye/DYNufc+DSPSTSakSsWJ9IPx
+iAU7xJ+GCMzaZ10Y3VGOybGLuPxDlSd6KALAoMcl9ghB2mvfB0N3wv6uWnbKuxih
+q/qDps+FjliNvr7C66mIVH+9rkyHIy6GgIUlwr7E88Qqw+SQeNeph6NIY85PL4p0
+Y8KivKP4J928tpp18wLuHNbIG+YaUk5WUDZ6/2621pi19UZQ8iiHxN/XKQIDAQAB
+o4IBiTCCAYUwDAYDVR0TBAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwFgYDVR0lAQH/
+BAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFBY++xz/DCuT+JsV1y2jwuZ4YdztMIGo
+BgNVHSMEgaAwgZ2AFLO86lh0q+FueCqyq5wjHqhjLJe3oYGBpH8wfTELMAkGA1UE
+BhMCVVMxHDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRpb24xLzAtBgNVBAsTJk1v
+emlsbGEgQU1PIFByb2R1Y3Rpb24gU2lnbmluZyBTZXJ2aWNlMR8wHQYDVQQDExZy
+b290LWNhLXByb2R1Y3Rpb24tYW1vggEBMDMGCWCGSAGG+EIBBAQmFiRodHRwOi8v
+YWRkb25zLm1vemlsbGEub3JnL2NhL2NybC5wZW0wTgYDVR0eBEcwRaFDMCCCHi5j
+b250ZW50LXNpZ25hdHVyZS5tb3ppbGxhLm9yZzAfgh1jb250ZW50LXNpZ25hdHVy
+ZS5tb3ppbGxhLm9yZzANBgkqhkiG9w0BAQwFAAOCAgEAPezHTsllOYwSf5oelP8B
+lClaoauwLA9BenLelgENG+G1uDjPPc/MPaWLLckDywY05fC5ns9LLRauT+NvWLin
+ByhjrYgkh1+IjAjK3ULEZ2fs5i/Rp391h2hxfbyIHwrWojXquK0ficuEfsimTjk0
+FGc1OmUWUetiFcqgtFPz6XEPCiPa97yCnUY14YnzzD4uqLGctiygzQAHFtoYKRRo
+rdETLLwWTlhcrnxHGI+KwVY3+IwtY74i8W8zuhsjmwm12IEgF5Qc2jjZWhpq7Wqj
+GbeMYiDgrTCc/5lR3neoxD9FH2ctyC3cZkPXa8K9IdVvUzHyP7n04yL5vVWdqncV
+CsFKh3jPujcLsasetbfJ+J0klSVkHc8rmisNkG4BcD+3ruYT9+Pq/AF1McfAbo0R
+rsiVF/E4i8fHMADNT6UINgtrsHqcxtChlcbuyYJ6fzOI7/sJJA02vo2dPZTxD7KW
+ESqkIXOhlhTUg/BSY5hVD0zHBlPyrwMcpi+syinUNB57yMPpwnmqMsfOmLZts7M4
+SAattThRyqH+EacgbTyywcKcAkwtmsCk/v//8xs0H+Rc3KyyONwGKSsyZ38YeheB
+lyLBe0S51LeJ5EVGVjF6teUn40b+3ARIvRm+g2dB4fA8pVGNrG2yTYOBpG5vJEx2
+gVoOXLKkydIK4rvYJi3U3uA=
+-----END CERTIFICATE-----
